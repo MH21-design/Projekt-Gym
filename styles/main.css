@@ -59,6 +59,7 @@ span {
 
 .content-left {
     padding: 120px 100px;
+    padding-right: 0;
     width: 40%;
 }
 
