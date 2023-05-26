@@ -12,6 +12,24 @@ html {
     min-height: 100%;
 }
 
+@media (max-width: 100em) {
+    html {
+        font-size: 0.5em;
+    }
+} 
+
+/* @media (min-width: 120em) {
+    html {
+        font-size: 0.9em;
+    }
+}
+
+@media (min-width: 140em) {
+    html {
+        font-size: 1.05em;
+    }
+} */ 
+
 body {
     font-family: 'Monserrat', sans-serif;
     min-height: 100%;
@@ -50,6 +68,31 @@ body {
         fixed;
 }
 
+@media (max-width: 73em) {
+    body {
+        background-color: rgb(226,29,60);
+        background-image: url(../images/waves-white-cropped.svg);
+        background-repeat: no-repeat;
+        background-position: 100% 100%;
+        background-size: 33vh auto;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 33em) {
+    body {
+        background: none;
+        background-color: rgb(226,29,60);
+    }
+
+    .content {
+        flex-direction: column;
+    }
+}
+
 span {
     font-weight: bold;
 }
@@ -59,33 +102,58 @@ span {
     margin: 1.6rem 1.6rem;
 }
 
-.content {
+@media (max-width: 73em) {
+    .logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.content-container {
     display: flex;
+    flex-direction: column;
     min-height: 100vh;
 }
+
+.content {
+    display: flex;
+    flex: 1 0 auto;
+}
+
+
 
 .contnent-left {
     flex: 0 0 40%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .content-left-main {
     margin: 10rem 2rem 10rem 2rem;
     align-self: center;
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (max-width: 73em) {
+    .content-left-main {
+        align-items: center;
+        margin-bottom: 4rem;
+    }
 }
 
 .content-right {
     flex: 0 1 60%;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 .content-right-h2 {
-    margin: 0;
+    margin: 3rem 0 0 0;
     color: rgb(255, 255, 255);
     font-size: 6rem;
     font-weight: normal;
@@ -110,7 +178,13 @@ span {
     font-weight: medium;
     font-size: 4.5rem;
     text-shadow: 3px 3px 10px rgb(0, 0, 0, 1);
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
+}
+
+@media (max-width: 73em) {
+    .offer-heaeding {
+        text-align: center;
+    }
 }
 
 .offer-heaeding > span {
