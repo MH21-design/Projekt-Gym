@@ -8,6 +8,7 @@
 }
 
 html {
+    font-size: 0.625em;
     min-height: 100%;
 }
 
@@ -54,8 +55,8 @@ span {
 }
 
 .logo {
-    width: 210px;
-    margin: 24px 0 0 24px;
+    width: 24rem;
+    margin: 1.6rem 1.6rem;
 }
 
 .content {
@@ -71,7 +72,7 @@ span {
 }
 
 .content-left-main {
-    margin: 100px 24px 100px 24px;
+    margin: 10rem 2rem 10rem 2rem;
     align-self: center;
 }
 
@@ -86,7 +87,7 @@ span {
 .content-right-h2 {
     margin: 0;
     color: rgb(255, 255, 255);
-    font-size: 380%;
+    font-size: 6rem;
     font-weight: normal;
     text-transform: uppercase;
     text-align: center;
@@ -96,7 +97,7 @@ span {
 .content-right-paragraph {
     margin: 0;
     color: rgb(255, 255, 255);
-    font-size: 675%;
+    font-size: 10.8rem;
     font-weight: lighter;
     text-transform: uppercase;
     text-align: center;
@@ -107,9 +108,9 @@ span {
     color: rgb(255, 255, 255);
     font-style: italic;
     font-weight: medium;
-    font-size: 280%;
+    font-size: 4.5rem;
     text-shadow: 3px 3px 10px rgb(0, 0, 0, 1);
-    margin-bottom: 50px;
+    margin-bottom: 5rem;
 }
 
 .offer-heaeding > span {
@@ -119,19 +120,19 @@ span {
 .price {
     color: rgb(255, 255, 255);
     display: block;
-    font-size: 180px;
+    font-size: 18rem;
     font-weight: bold;
-    margin-bottom: 60px;
+    margin-bottom: 6rem;
 }
 
 .btn {
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
-    width: 350px;
-    height: 70px;
+    width: 35rem;
+    height: 7rem;
     border: none;
-    border-radius: 65px;
-    font-size: 45px;
+    border-radius: 9999rem;
+    font-size: 4.5rem;
     font-weight: medium;
     cursor: pointer;
     transition:  ease-in 0.5s;
@@ -144,5 +145,6 @@ span {
 }
 
 .footer-paragraph {
-    margin: 0 0 24px 24px;
+    margin: 0 0 2.4rem 2.4rem;
+    font-size: 1.6rem;
 }
